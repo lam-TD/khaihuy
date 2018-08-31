@@ -1,0 +1,68 @@
+body{
+    font-family: 'Open Sans','Segoe UI' !important;
+}
+h1,h2,h2,h4,h5,h6{
+    font-family: 'Open Sans','Segoe UI' !important;
+}
+
+input, button, select, .card, .btn, textarea{
+  border-radius: 0px !important;
+}
+
+.sidebar-nav > ul > li > a {
+    color: white !important;
+}
+.hidden-icon {
+    display: none;
+}
+
+.hidden-icon-small {
+    display: block !important;
+}
+
+@media (min-width: 768px){
+    .hidden-icon {
+        display: block;
+    }
+
+}
+
+@media (max-width: 480px){
+    .hidden-icon {
+        display: none;
+    }
+
+    .hidden-icon {
+        display: none;
+    }
+}
+
+.topbar{
+    /*position: fixed !important;*/
+    /*position: fixed !important; top: 0px; width: 1349px;*/
+}
+
+.sidebar-nav ul li a.active {
+    font-weight: 500;
+    color: #d0d0d0 !important;
+}
+
+#error_tk{
+    color: red;
+}
+
+.has-success .input_success{
+    border-color: #26dad2 !important;
+}
+
+.has-success .input_danger{
+    border-color: #ef5350 !important;
+}
+
+.is-danger{
+    color: #ef5350 !important;
+}
+
+.border-danger{
+    border-color: #ef5350 !important;
+}
